@@ -1,13 +1,21 @@
 {
-    "files.exclude": {
-        ".gitignore": false,
-        "package.json": false,
-        "postcss.config.js": false,
-        "README.md": false,
-        "yarn.lock": false,
-        "styles": false,
-        "next-env.d.ts": false,
-        "tsconfig.json": false
-    },
-    "workspace.isHidden": false
+  "files.exclude": {
+    ".gitignore": false,
+    "package.json": false,
+    "postcss.config.js": false,
+    "README.md": false,
+    "yarn.lock": false,
+    "styles": false,
+    "next-env.d.ts": false,
+    "tsconfig.json": false
+  },
+  "workspace.isHidden": false,
+
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.customData": [".vscode/css_custom_data.json"],
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "javascript"
+  }
 }

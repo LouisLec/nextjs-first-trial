@@ -1,3 +1,4 @@
+import "../styles/globals.css";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -7,4 +8,8 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+};
+
+import { withNextRouter } from "storybook-addon-next-router";
+
+export const decorators = [withNextRouter];
